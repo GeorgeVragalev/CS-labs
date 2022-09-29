@@ -59,9 +59,9 @@ in the plain text is written horizontally with specified alphabet width.
 The cipher is written vertically, which creates an entirely different cipher text.
 
 Consider the plain text hello world, and let us apply the simple columnar transposition 
-technique as shown below
+technique as shown below:
 
-![img_7.png](img_7.png)
+![helloworld.jpg](helloworld.jpg)
 
 The plain text characters are placed horizontally and the cipher text is created with vertical format as : holewdlo lr.
 Now, the receiver has to use the same table to decrypt the cipher text to plain text.
@@ -138,7 +138,7 @@ the second reason is that the number of possible solutions increases, for exampl
 ### The Playfair cipher
 A classic example for d-grams substitution is Playfair cipher.
 
-![img_6.png](img_6.png)
+![cipher.jpg](cipher.jpg)
 
 The first letters in the above square (in general case - a rectangle) represent a keyword k
 (the letters that are repeated are written once, in this example the key being k=Playfair)
