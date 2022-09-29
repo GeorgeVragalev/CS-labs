@@ -197,12 +197,12 @@ encrypt a new message at the end of each cipher execution.
 
 
 ### Vigenere cipher:
-![img_2.png](img_2.png)
+![images/img_2.png](img_2.png)
 
 
 ### Playfair cipher:
-![img_3.png](img_3.png)
+![img_3.png](images/img_3.png)
 
 
 ### Transposition cipher:
-![img_5.png](img_5.png)
+![images/img_5.png](images/img_5.png)
