@@ -2,7 +2,7 @@
 
 #### Author: George Vragalev
 
-##Theory
+## Theory
 Cryptography is a branch of mathematics that deals with securing information, also ensuring authentication and restricting access in an informational system.
 
 Classic cryptography falls under the class of symmetric key cryptography and is cryptography 
@@ -10,13 +10,13 @@ before the computer, hence the name pre-computational cryptography. In classic c
 algorithms were character-based and consisted of a series of elementary transformations 
 (substitutions and transpositions) of plaintext characters.
 
-####Substitution ciphers
+#### Substitution ciphers
 The substitution cipher is the cipher in which each character or group of characters of the plaintext m is replaced by another character or group of characters in the ciphertext c, decryption is done by applying reverse substitution on the encrypted text.
 
-####Monoalphabetic substitution ciphers
+#### Monoalphabetic substitution ciphers
 Monoalphabetic substitution ciphers (monoalphabetic ciphers) are the ciphers in which each plaintext character m is replaced by a corresponding ciphertext character c. One such example of the cipher is the Caesar cipher.
 
-###The Caesar Cipher
+### The Caesar Cipher
 In this cipher, each letter of the plaintext is replaced by a new letter obtained by an alphabetical shift. 
 The secret key k, which is the same for encryption as and upon decryption, it consists of the number indicating the alphabetic displacement,
 i.e. <math xmlns="http://www.w3.org/1998/Math/MathML">
@@ -67,7 +67,7 @@ The plain text characters are placed horizontally and the cipher text is created
 Now, the receiver has to use the same table to decrypt the cipher text to plain text.
 
 
-###The Vigenere cipher
+### The Vigenere cipher
 Like the Caesar cipher, the Vigenere cipher moves the letters, but unlike it, it cannot be easily
 broken into 26 combinations. 
 The Vigenere cipher uses a multiple shift. 
@@ -135,7 +135,7 @@ The Vigenere cipher is a lot safer than the Caesar cipher for two reasons:
 the first reason is that the others do not know the length of the key;
 the second reason is that the number of possible solutions increases, for example, for the key length equal to 5, the number of combinations that would be necessary for the exhaustive search would be 11,881,376
 
-###The Playfair cipher
+### The Playfair cipher
 A classic example for d-grams substitution is Playfair cipher.
 
 ![img_6.png](img_6.png)
@@ -161,7 +161,8 @@ The use of the Playfair cipher currently does not make sense because modern lapt
 
 
 
-##Objectives
+## Objectives
+
 * Get familiar with the basics of cryptography and classical ciphers.
 
 * Implement 4 types of the classical ciphers:
@@ -172,7 +173,8 @@ Playfair cipher.
 * Structure the project in methods/classes/packages as neeeded.
 
 
-##Implementation
+## Implementation
+
 In this laboratory I implemented 4 variations of classical ciphers:
 
 * Caesar cipher
