@@ -61,7 +61,7 @@ The cipher is written vertically, which creates an entirely different cipher tex
 Consider the plain text hello world, and let us apply the simple columnar transposition 
 technique as shown below:
 
-![helloworld.jpg](helloworld.jpg)
+![helloworld.jpg](images/helloworld.jpg)
 
 The plain text characters are placed horizontally and the cipher text is created with vertical format as : holewdlo lr.
 Now, the receiver has to use the same table to decrypt the cipher text to plain text.
@@ -138,7 +138,7 @@ the second reason is that the number of possible solutions increases, for exampl
 ### The Playfair cipher
 A classic example for d-grams substitution is Playfair cipher.
 
-![cipher.jpg](cipher.jpg)
+![cipher.jpg](images/cipher.jpg)
 
 The first letters in the above square (in general case - a rectangle) represent a keyword k
 (the letters that are repeated are written once, in this example the key being k=Playfair)
@@ -193,11 +193,11 @@ In each of the ciphers you will be provided the choice of whether you want to qu
 encrypt a new message at the end of each cipher execution.
 
 ### Caesar cipher:
-![img_1.png](img_1.png)
+![img_1.png](images/img_1.png)
 
 
 ### Vigenere cipher:
-![images/img_2.png](img_2.png)
+![img_2.png](images/img_2.png)
 
 
 ### Playfair cipher:
@@ -205,4 +205,4 @@ encrypt a new message at the end of each cipher execution.
 
 
 ### Transposition cipher:
-![images/img_5.png](images/img_5.png)
+![img_5.png](images/img_5.png)
