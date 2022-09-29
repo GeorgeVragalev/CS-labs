@@ -15,6 +15,8 @@
       <Content Include="img_3.png" />
       <Content Include="img_4.png" />
       <Content Include="img_5.png" />
+      <Content Include="img_6.png" />
+      <Content Include="img_7.png" />
     </ItemGroup>
 
 </Project>
