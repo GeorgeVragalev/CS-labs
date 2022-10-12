@@ -41,13 +41,15 @@ every 8th bit is discarded from the original key, making it a key of 56 bit leng
 
 ASCII value of each character from the plain text and the key and converted to the binary digits of 8 bit length. 
 Now, this is what happens that the total length of the plain text and the key may not be an exact multiple of 64. 
-Thus, I appended zeroes at the end of the plain text and the key in such a way that they become a 
+Thus, by appending zeroes at the end of the plain text and the key they become a 
 multiple of 64. One important thing to note is that the key size cannot be greater than 8 characters.
 As each character represents 8 bits and the size of key cannot be greater than 64 bits, hence the key size 
 cannot be more than 8 characters.
 
-Now, divide the plain text in the blocks of 64 bits. Take each block, one by one. 
-Start encrypting them with DES. DES involves the steps, given below.
+Then the plain text is divided into blocks of 64 bits. Each block is taken one by one
+and is encrypted with DES. 
+
+DES involves the following steps, given below:
 
 ![img.png](images/img.png)
 
@@ -61,7 +63,7 @@ RC4 (Rivest Cipher 4) was designed by Ron Rivest. It is remarkable for its speed
 It widely used in many applications and protocols. 
 Though, there are multiple Vulnerability has been discovered in RC4.
 
-It encrypt/decrypt input data one by one. 
+It encrypts/decrypts input data one by one. 
 In this way, the encryption or decryption can be implemented on the length of the variable. 
 This algorithm does not have to wait a certain amount of data input before it is processed or add 
 extra bytes to encrypt.
