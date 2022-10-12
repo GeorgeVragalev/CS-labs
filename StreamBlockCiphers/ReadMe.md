@@ -55,9 +55,6 @@ Program run:
 
 ![img.png](images/img2.png)
 
-
-
-
 ### Stream cipher - Rivest Cipher 4 (RC4):
 
 RC4 (Rivest Cipher 4) was designed by Ron Rivest. It is remarkable for its speed and simplicity. 
@@ -84,4 +81,4 @@ S[i] algorithm swap it with another byte in S[j] then bitwise exclusive or XOR t
 
 Program run:
 
-![img.png](img3.png)
+![img.png](images/img3.png)
