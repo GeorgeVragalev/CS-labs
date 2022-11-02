@@ -60,7 +60,16 @@ public class RsaCipher : IRsaCipher
         Console.WriteLine("*************************************************");
 
         Console.WriteLine("Enter Plaintext (integer) to Encrypt:");
-        var plainText = Console.Read();
+        int plainText;
+        try
+        {
+            plainText= Convert.ToInt32(Console.ReadLine());
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine(e);
+            throw;
+        }
 
         if (plainText<0)
             return;

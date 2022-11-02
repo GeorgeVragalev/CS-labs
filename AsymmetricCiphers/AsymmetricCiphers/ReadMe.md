@@ -106,7 +106,7 @@ decryptedText = (cipherText.pow(d)).mod(n), where n is previously computed throu
 
 # Output
 
-![img.png](img.png)
+
 
 # Conclusion
 

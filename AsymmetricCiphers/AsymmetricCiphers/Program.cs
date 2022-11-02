@@ -14,7 +14,7 @@ public class Program
 
     public static void Main(string[] args)
     {
-        var program = new Program(new ControlCiphers.ControlCiphers(new RsaCipher(79, 13)));
+        var program = new Program(new ControlCiphers.ControlCiphers(new RsaCipher(3, 11)));
         program._controlCiphers.RunCiphers();
     }
 }
