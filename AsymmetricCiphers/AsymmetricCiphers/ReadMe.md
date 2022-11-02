@@ -106,13 +106,28 @@ decryptedText = (cipherText.pow(d)).mod(n), where n is previously computed throu
 
 # Output
 
-
+![img.png](images/rsa.jpg)
 
 # Conclusion
 
-Having completed the elaboration of this laboratory work, we managed to understand the basic idea of asymmetric cryptography.
-Asymmetric cryptography has several advantages, including: Loss of the public key does not lead to compromise
-document,
-It is more secure than symmetric encryption, only the owner of the private key can decrypt the data sent to them
-RSA algorithm - the most widely used asymmetric algorithm. The computational effort involved in factoring is enormous
-Integers that are the product of two large prime numbers are where the security of RSA comes from.
+Having implemented this laboratory work, I managed to understand the basic idea of asymmetric cryptography.
+It has several advantages, including: 
+* Loss of the public key does not lead to compromise
+document
+* It is more secure than symmetric encryption, only the owner of the private key can decrypt the data sent to them
+* RSA algorithm - the most widely used asymmetric algorithm. 
+* The computational effort involved in factoring is enormous
+* Integers that are the product of two large prime numbers is the origin of RSA security.
+
+RSA is currently considered safe to use, despite possible options of attacks. 
+The trick here is that it needs to be implemented correctly and use a 
+key that falls within the correct parameters. Implementations that don’t: 
+use padding, use inadequately sized primes or have other vulnerabilities
+can not be considered safe.
+
+As long as you are conscious of the weaknesses that RSA has and use it 
+correctly, you should feel safe to use RSA for key sharing and other 
+similar tasks that require public key encryption.
+
+While RSA is safe for now, the rise of quantum computing is expected
+to pose some challenges in the future.
