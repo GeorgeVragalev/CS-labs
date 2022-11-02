@@ -106,10 +106,7 @@ decryptedText = (cipherText.pow(d)).mod(n), where n is previously computed throu
 
 # Output
 
-````
-Encrypted message is : 365
-Decrypted message is : 214
-````
+![img.png](img.png)
 
 # Conclusion
 
