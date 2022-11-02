@@ -1,4 +1,4 @@
-# Classical ciphers laboratory
+# Block ciphers laboratory
 
 #### Author: George Vragalev
 

@@ -1,4 +1,4 @@
-# Classical ciphers laboratory
+# Asymmetric ciphers laboratory
 
 #### Author: George Vragalev
 
