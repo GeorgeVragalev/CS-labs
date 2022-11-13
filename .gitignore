@@ -82,3 +82,5 @@ AsymmetricCiphers/.idea.
 .idea
 AsymmetricCiphers/AsymmetricCiphers/bin
 AsymmetricCiphers\Controllers\WeatherForecastController.cs
+PasswordHashing-DigitalSignatures/obj
+PasswordHashing-DigitalSignatures/bin
