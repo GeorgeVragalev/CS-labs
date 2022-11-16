@@ -106,7 +106,7 @@ decryptedText = (cipherText.pow(d)).mod(n), where n is previously computed throu
 
 # Output
 
-![img.png](images/rsa.jpg)
+![img.png](asymmetricCipherImages/rsa.jpg)
 
 # Conclusion
 

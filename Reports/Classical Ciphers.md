@@ -138,7 +138,7 @@ the second reason is that the number of possible solutions increases, for exampl
 ### The Playfair cipher
 A classic example for d-grams substitution is Playfair cipher.
 
-![cipher.jpg](images/cipher.jpg)
+![cipher.jpg](classicalCipherImages/cipher.jpg)
 
 The first letters in the above square (in general case - a rectangle) represent a keyword k
 (the letters that are repeated are written once, in this example the key being k=Playfair)
@@ -193,16 +193,16 @@ In each of the ciphers you will be provided the choice of whether you want to qu
 encrypt a new message at the end of each cipher execution.
 
 ### Caesar cipher:
-![img_1.png](images/img_1.png)
+![img_1.png](classicalCipherImages/img_1.png)
 
 
 ### Vigenere cipher:
-![img_2.png](images/img_2.png)
+![img_2.png](classicalCipherImages/img_2.png)
 
 
 ### Playfair cipher:
-![img_3.png](images/img_3.png)
+![img_3.png](classicalCipherImages/img_3.png)
 
 
 ### Transposition cipher:
-![img_5.png](images/img_5.png)
+![img_5.png](classicalCipherImages/img_5.png)

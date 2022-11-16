@@ -51,11 +51,11 @@ and is encrypted with DES.
 
 DES involves the following steps, given below:
 
-![img.png](images/img.png)
+![img.png](streamBlockCipherImages/img.png)
 
 Program run:
 
-![img.png](images/img2.png)
+![img.png](streamBlockCipherImages/img2.png)
 
 ### Stream cipher - Rivest Cipher 4 (RC4):
 
@@ -83,4 +83,4 @@ S[i] algorithm swap it with another byte in S[j] then bitwise exclusive or XOR t
 
 Program run:
 
-![img.png](images/img3.png)
+![img.png](streamBlockCipherImages/img3.png)
