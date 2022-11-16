@@ -2,85 +2,9 @@
 .idea/.idea.DiningHall/.idea/encodings.xml
 .idea/.idea.DiningHall/.idea/indexLayout.xml
 *.xml
-bin/Debug/net6.0/appsettings.Development.json
-bin/Debug/net6.0/appsettings.json
-bin/Debug/net6.0/DiningHall.deps.json
-bin/Debug/net6.0/DiningHall.dll
-bin/Debug/net6.0/DiningHall.exe
-bin/Debug/net6.0/DiningHall.pdb
-bin/Debug/net6.0/DiningHall.runtimeconfig.json
-bin/Debug/net6.0/Microsoft.OpenApi.dll
-bin/Debug/net6.0/Swashbuckle.AspNetCore.Swagger.dll
-bin/Debug/net6.0/Swashbuckle.AspNetCore.SwaggerGen.dll
-bin/Debug/net6.0/Swashbuckle.AspNetCore.SwaggerUI.dll
-obj/Debug/net6.0/.NETCoreApp,Version=v6.0.AssemblyAttributes.cs
-obj/Debug/net6.0/apphost.exe
-obj/Debug/net6.0/DiningHall.AssemblyInfo.cs
-obj/Debug/net6.0/DiningHall.AssemblyInfoInputs.cache
-obj/Debug/net6.0/DiningHall.assets.cache
-obj/Debug/net6.0/DiningHall.csproj.AssemblyReference.cache
-obj/Debug/net6.0/DiningHall.csproj.CopyComplete
-obj/Debug/net6.0/DiningHall.csproj.CoreCompileInputs.cache
-obj/Debug/net6.0/DiningHall.csproj.FileListAbsolute.txt
-obj/Debug/net6.0/DiningHall.dll
-obj/Debug/net6.0/DiningHall.GeneratedMSBuildEditorConfig.editorconfig
-obj/Debug/net6.0/DiningHall.genruntimeconfig.cache
-obj/Debug/net6.0/DiningHall.GlobalUsings.g.cs
-obj/Debug/net6.0/DiningHall.MvcApplicationPartsAssemblyInfo.cache
-obj/Debug/net6.0/DiningHall.MvcApplicationPartsAssemblyInfo.cs
-obj/Debug/net6.0/DiningHall.pdb
-obj/Debug/net6.0/ref/DiningHall.dll
-obj/Debug/net6.0/refint/DiningHall.dll
-obj/Debug/net6.0/staticwebassets.build.json
-obj/DiningHall.csproj.nuget.dgspec.json
-obj/DiningHall.csproj.nuget.g.props
-obj/DiningHall.csproj.nuget.g.targets
-obj/project.assets.json
-obj/project.nuget.cache
-obj/project.packagespec.json
-obj/rider.project.restore.info
-obj/staticwebassets.pack.sentinel
-bin/Debug/net6.0/Settings/appsettings.Development.json
-bin/Debug/net6.0/Settings/appsettings.json
-bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Abstractions.dll
-bin/Debug/net6.0/Microsoft.EntityFrameworkCore.dll
-bin/Debug/net6.0/Microsoft.Extensions.Caching.Memory.dll
-bin/Debug/net6.0/Newtonsoft.Json.dll
-Classical Ciphers/bin/Debug/net6.0/Classical Ciphers.deps.json
-Classical Ciphers/bin/Debug/net6.0/Classical Ciphers.runtimeconfig.json
-Classical Ciphers/bin/Debug/net6.0/Classical Ciphers.exe
-Classical Ciphers/bin/Debug/net6.0/Classical Ciphers.dll
-Classical Ciphers/bin/Debug/net6.0/Classical Ciphers.pdb
-Classical Ciphers/obj/Classical Ciphers.csproj.nuget.dgspec.json
-Classical Ciphers/obj/Classical Ciphers.csproj.nuget.g.props
-Classical Ciphers/obj/Classical Ciphers.csproj.nuget.g.targets
-Classical Ciphers/obj/Debug/net6.0/.NETCoreApp,Version=v6.0.AssemblyAttributes.cs
-Classical Ciphers/obj/Debug/net6.0/apphost.exe
-Classical Ciphers/obj/Debug/net6.0/Classical Ciphers.AssemblyInfo.cs
-Classical Ciphers/obj/Debug/net6.0/Classical Ciphers.AssemblyInfoInputs.cache
-Classical Ciphers/obj/Debug/net6.0/Classical Ciphers.assets.cache
-Classical Ciphers/obj/Debug/net6.0/Classical Ciphers.csproj.AssemblyReference.cache
-Classical Ciphers/obj/Debug/net6.0/Classical Ciphers.csproj.CoreCompileInputs.cache
-Classical Ciphers/obj/Debug/net6.0/Classical Ciphers.csproj.FileListAbsolute.txt
-Classical Ciphers/obj/Debug/net6.0/Classical Ciphers.dll
-Classical Ciphers/obj/Debug/net6.0/Classical Ciphers.GeneratedMSBuildEditorConfig.editorconfig
-Classical Ciphers/obj/Debug/net6.0/Classical Ciphers.genruntimeconfig.cache
-Classical Ciphers/obj/Debug/net6.0/Classical Ciphers.GlobalUsings.g.cs
-Classical Ciphers/obj/Debug/net6.0/Classical Ciphers.pdb
-Classical Ciphers/obj/Debug/net6.0/ref/Classical Ciphers.dll
-Classical Ciphers/obj/Debug/net6.0/refint/Classical Ciphers.dll
-Classical Ciphers/obj/project.assets.json
-Classical Ciphers/obj/project.nuget.cache
-Classical Ciphers/obj/project.packagespec.json
-Classical Ciphers/obj/rider.project.restore.info
-StreamBlockCiphers/obj/
-StreamBlockCiphers/.idea/
-StreamBlockCiphers/bin/
-AsymmetricCiphers/AsymmetricCiphers/obj
-AsymmetricCiphers/obj
-AsymmetricCiphers/.idea.
+.bin
+.obj
 .idea
-AsymmetricCiphers/AsymmetricCiphers/bin
-AsymmetricCiphers\Controllers\WeatherForecastController.cs
-PasswordHashing-DigitalSignatures/obj
-PasswordHashing-DigitalSignatures/bin
+./obj
+Ciphers/obj
+Ciphers/bin
