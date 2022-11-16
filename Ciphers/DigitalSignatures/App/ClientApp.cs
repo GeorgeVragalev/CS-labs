@@ -14,7 +14,7 @@ public class ClientApp : IClientApp
 
     public void RunAuthenticator()
     {
-        Console.WriteLine("Welcome to Symmetric Ciphers!\n");
+        Console.WriteLine("Welcome to Digital Signatures and Password Hashing!\n");
 
         var terminate = false;
         User loggedInUser = null;
@@ -34,11 +34,15 @@ public class ClientApp : IClientApp
             switch (cipher)
             {
                 case 1:
-                    _authenticate.Register();
+                    if (loggedInUser == null)
+                        _authenticate.Register();
                     break;
                 case 2:
-                    Console.WriteLine("You logged in successfully");
-                    loggedInUser = _authenticate.Login();
+                    if (loggedInUser == null)
+                    {
+                        loggedInUser = _authenticate.Login();
+                        Console.WriteLine("You logged in successfully");
+                    }
                     break;
                 case 3:
                     Console.WriteLine("You logged out successfully");
