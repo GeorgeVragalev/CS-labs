@@ -37,10 +37,7 @@ public class Authenticate : IAuthenticate
             Message = ""
         };
 
-        // Verify
-        var result = _passwordHasher.Verify(password, user.Password);
         Console.WriteLine($"Hashed: {user.Password}");
-        Console.WriteLine($"The password is: {(result ? "" : "not")} valid");
 
         _userStorage.Save(user);
 

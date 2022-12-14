@@ -10,3 +10,5 @@ Ciphers/obj
 Ciphers/bin
 Reports/Reports.csproj
 Reports/obj
+Ciphers/WebAuthentication/bin/
+Ciphers/WebAuthentication/obj
